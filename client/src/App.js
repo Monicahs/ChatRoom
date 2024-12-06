@@ -62,7 +62,7 @@ const App = () => {
           <button onClick={joinRoom}>Join Room</button>
         </div>
       ) : (
-        <div>
+        <div className="h">
           <h2>Chat Room: {room}</h2>
           <div className="chat-container">
             {messages.map((msg, index) => (

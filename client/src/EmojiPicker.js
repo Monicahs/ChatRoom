@@ -23,11 +23,11 @@ const EmojiPicker = ({ onSelect }) => {
             background: 'white',
             border: '1px solid #ccc',
             borderRadius: '5px',
-            padding: '10px',
+            padding: '5px',
             zIndex: 1000,
             display: 'flex',
             flexWrap: 'wrap',
-            width: '569px',
+            width: '800px',
             maxHeight: '150px', // Added maxHeight
             overflowY: 'scroll' // Added overflowY
         }}>

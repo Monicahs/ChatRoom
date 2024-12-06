@@ -1,7 +1,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #7ef376;
+  background-color: white;
   margin: 0;
   padding: 0;
 }
@@ -16,53 +16,59 @@ body {
   display: flex;
   flex-direction: column;    /* Stack the form elements vertically */
   align-items: center;       /* Center input fields and button horizontally */
-  gap: 15px;                 /* Adds space between elements */
-  padding: 20px;
-  border: 2px solid #ccc;    /* Optional: Add border for the form container */
+  gap: 16px;                 /* Adds space between elements */
+  padding: 50px;
+  border: 2px solid #f7e6e6;    /* Optional: Add border for the form container */
   border-radius: 8px;        /* Optional: Round the corners */
-  background-color: #f9f9f9; /* Optional: Background color */
-  width: 400px;              /* Set a width for the form container */
+  background-color: #c8eff8; /* Optional: Background color */
+  width: 350px;    
+      /* Set a width for the form container */
 }
 
 h2 {
-  color: #007822;
+  color: blue;
+
 }
 
 /* Form Styles */
 input[type="text"] {
-  width:8cm;
+  width:70%;
   margin: 10px;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #76dfe7;
   border-radius: 4px;
   font-size: 25px;
 
 }
 
 button {
-  padding: 10px 20px;
-  background-color: #10a018;
+  padding: 15px 20px;
+  background-color: #1db8c1;
   color: white;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   margin-left: 10px;
-  font-size: 20px;
+  font-size: 29px;
 }
 
 button:hover {
-  background-color: #58ee44;
+  background-color: #8bc0cf;
 }
 
 /* Chat Container */
 .chat-container {
-  border: 1px solid #3df444;
-  padding: 10px;
+  border: 1px solid #b1c8fc;
+  padding: 20px;
   height: 600px;
+  width: 1000px;
   overflow-y: scroll;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   background-color: white;
   
+}
+.h{
+  margin-bottom: 200px;
 }
 
 /* Messages */
